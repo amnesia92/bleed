@@ -10,3 +10,10 @@ Exploitation of HeartBleed vuln
 You can also manually add your targets by adding your IPs to targets.txt (format ip:port) like
 192.168.0.1:80
 Please note that 443 is default.
+
+
+
+========= Explanations =========
+In ./data are all the usable data, like target list.
+In ./logs are all the logs from exploit script.
+In ./in are all file that we can get data incoming from there "like source code of html page"
