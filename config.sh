@@ -1,7 +1,12 @@
 #Change values in this file like you want
 
 #log
-echo "Importing data from ./config.sh , please edit this file to set your own config."
+echo "Importing data from ./config.sh , please edit this file to export your own config."
+
+#WHERE ARE SCRIPTS LOCATED
+export BLEED_BACKGROUND_SCRIPT="always.sh"
+export BLEED_SCREEN_SCRIPT="notif.sh"
+export BLEED_ADD_TARGETS_SCRIPT="addTargetsFromSource.sh"
 
 #DATA
 export BLEED_TARGET_FILE="data/targets.txt"

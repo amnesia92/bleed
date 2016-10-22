@@ -1,4 +1,4 @@
-./config.sh
+. ./config.sh
 export numberIP=$(wc -l < $BLEED_TARGET_LIST)
 echo "Now : $numberIP ips in $BLEED_TARGET_LIST"
 echo "Parsing file ..."

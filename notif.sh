@@ -1,4 +1,4 @@
-./config.sh
+. ./config.sh
 clear
 while :
 do
