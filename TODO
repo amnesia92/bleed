@@ -1,0 +1,9 @@
+TODO
+
+1) Test script
+The actual script does not permit to say if the target has leaked, or not.
+Make a script based on Heartbleed.py that tests and returns a value depending on target's vuln.
+
+2) Regexp creds
+Find a way to extract all creds or "may be cool" value from verbose logs.
+That will make it cool and better for the BLEED_SCREEN_SCRIPT to display what we gained.
